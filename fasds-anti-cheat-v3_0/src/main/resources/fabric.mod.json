@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "fasds_anti_cheat",
+  "version": "${version}",
+  "name": "fasd's Anti Cheat",
+  "description": "Client-side heuristic cheat spotter. Press K for the flag menu, J for a chat report. Rebind keys in Options > Controls > Key Binds.",
+  "authors": ["fasd"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.cheatwatch.CheatWatchClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
